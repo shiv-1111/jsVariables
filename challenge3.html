@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Redclaring a Variable Using let</h1>
+    <h3 id="demo"></h3>
+    <script>
+
+        let a = "hii";
+
+        //creating a block scope
+
+        {
+            
+        let a = "Hello";        //redeclaring a variable with let is only possible in another block
+
+        document.getElementById("demo").innerHTML = a;
+        
+        }
+    </script>
+</body>
+</html>
